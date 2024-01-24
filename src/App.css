@@ -1,8 +1,17 @@
 .dom {
-    background-color: #F3F5FC;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .dom {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dom {
+        flex-direction: column;
+    }
 }

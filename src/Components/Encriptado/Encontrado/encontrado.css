@@ -11,7 +11,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400; 
-    height: 30em;
+    height: 29em;
     padding: 1em 0 0 0;
 }
 
@@ -38,11 +38,14 @@
 
 .copy {
     position: relative;
-    bottom: 39.5em;
     left: 19.5em;
     color: #0A3871;
     animation: aparecer 2s ease-in-out;
     opacity: 0;
+}
+
+.blank {
+    color: #fff;
 }
 
 @keyframes aparecer {
@@ -55,4 +58,61 @@
     100% {
         opacity: 0;
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .encontrado {
+        align-items: center;
+        padding: 3vh 0;
+    }
+
+    .encontrado textarea{
+        height: 20vh;
+        width: 80%;
+    }
+
+    .encontrado button {
+        width: 80%;
+        margin-top: 3vh;
+    }
+
+    .copy{
+        position: relative;
+        bottom: 0;
+        left: 20em;
+    }
+
+    .blank {
+        color: #fff;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .encontrado {
+        align-items: center;
+        padding: 3vh 0;
+    }
+
+    .encontrado textarea{
+        height: 20vh;
+        width: 80%;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .encontrado button {
+        width: 80%;
+        margin-top: 3vh;
+    }
+
+    .copy{
+        position: relative;
+        bottom: 1vh;
+        left: 33vw;
+    }
+
+    .blank {
+        color: #fff;
+    }    
 }

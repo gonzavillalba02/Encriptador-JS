@@ -7,7 +7,7 @@
 }
 
 .desencriptado-contenido{
-    margin: 7vh 0 0 5vw;
+    margin: 7vh 0 0 0;
 }
 
 .desencriptado-area {
@@ -20,7 +20,8 @@
     font-weight: 400; 
     font-size: 25px;
     width: 45vw;
-    padding: 3vh 10vw 45vh 3vw;
+    height: 53vh;
+    padding: 3vh 10vw 0 3vw;
     resize: none;
 }
 
@@ -79,4 +80,58 @@
 .desencriptado-botones-desencriptar:hover {
     background: #d3f3ff;
     transition: 1s;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .desencriptado{
+        height: initial;
+    }
+
+    .desencriptado-logo{
+        position: relative;
+        right: 7%;
+    }
+
+    .desencriptado-area{
+        height: 50vh;
+        width: 100%;
+    }
+    .desencriptado-botones{
+        margin: 0 0 5vh 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .desencriptado{
+        height: initial;
+    }
+
+    .desencriptado-aviso{
+        margin: auto;
+        width: 95%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .desencriptado-logo{
+        position: relative;
+        top: 2vh;
+        right: 5%;
+    }
+
+    .desencriptado-area{
+        height: 30vh;
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .desencriptado-botones{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desencriptado-botones button {
+        margin: 1vh 0;
+    }
 }
