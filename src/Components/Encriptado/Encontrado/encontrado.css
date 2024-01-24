@@ -35,3 +35,24 @@
     background: #ebfaff;
     transition: 1s;
 }
+
+.copy {
+    position: relative;
+    bottom: 39.5em;
+    left: 19.5em;
+    color: #0A3871;
+    animation: aparecer 2s ease-in-out;
+    opacity: 0;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

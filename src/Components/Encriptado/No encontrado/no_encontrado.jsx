@@ -2,7 +2,7 @@ import React from "react";
 import "./no_encontrado.css";
 import munieco from "../../../Assets/Muñeco.png";
 
-const NoEncontrado = ({handelStep}) => {
+const NoEncontrado = () => {
  return(
     <div className="no-encontrado">
         <img src={munieco} alt="Muñeco" />

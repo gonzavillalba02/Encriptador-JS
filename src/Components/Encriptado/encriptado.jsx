@@ -3,17 +3,13 @@ import "./encriptado.css";
 import NoEncontrado from "./No encontrado/no_encontrado";
 import Encontrado from "./Encontrado/encontrado";
 
-const Encriptado = () => {
-
-    const [step, SetStep] = useState(true);
-
-    const handelStep = () => {
-        SetStep(!step)
-    }
+const Encriptado = ({encriptado}) => {
 
     return(
         <div className="encriptado" >
-            {step === false ? <NoEncontrado props={handelStep}/> : <Encontrado props={handelStep}/>}
+            {encriptado.length == 0 ? 
+            <NoEncontrado /> 
+            : <Encontrado encriptado={encriptado}/>}
         </div>
     )
 }
