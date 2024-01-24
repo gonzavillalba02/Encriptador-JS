@@ -1,0 +1,37 @@
+.encontrado {
+    display: flex;
+    flex-direction: column;
+}
+
+.encontrado textarea {
+    border: none;
+    resize: none;
+    color: #495057;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400; 
+    height: 30em;
+    padding: 1em 0 0 0;
+}
+
+.encontrado textarea:focus {
+    outline: none;
+}
+
+.encontrado button {
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    background: #fff;
+    width: 328px;
+    padding: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.encontrado button:hover {
+    background: #ebfaff;
+    transition: 1s;
+}

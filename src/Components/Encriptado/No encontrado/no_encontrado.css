@@ -1,0 +1,26 @@
+.no-encontrado {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-encontrado-ningun {
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    color: #343A40; 
+    margin: 2em 0 0 0;
+}
+
+.no-encontrado-ingresa {
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400; 
+    color: #495057;
+}

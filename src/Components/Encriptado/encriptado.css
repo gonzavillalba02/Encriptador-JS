@@ -1,0 +1,8 @@
+.encriptado {
+    width: 20vw;
+    height: 84vh;
+    padding: 3vh 3vw;
+    background-color: #fff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
